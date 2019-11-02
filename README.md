@@ -3,6 +3,8 @@
 
 zglEngine是一个基于OpenGL ES 1.1的跨平台GUI引擎，由于年代久远，多不维护，因此挑选较老的一个比较完整的版本，稍作整理后开源。
 
+![Image of architect-main](https://github.com/liuguoping981/zglEngine/raw/master/manual/image/eclipse-1.png)
+
 
 #REQUIREMENTS
 -------------------------------------------------------------------------------
