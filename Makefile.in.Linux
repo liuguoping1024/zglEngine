@@ -1,0 +1,18 @@
+
+CPP     = g++
+CC      = gcc
+LIB     = ar cr
+
+INCLUDES = -I/usr/include
+DEFINES  = 
+#DEFINES  =  -DARB_VBO_ENABLE
+LDFLAGS  = 
+CXXFLAGS = -Wall -O3
+LIBS	 = -lGL -lpng -lz -lX11 -L../../lib -lzglEngine
+
+
+# -Wno-sign-compare
+
+.PHONY : clean
+
+

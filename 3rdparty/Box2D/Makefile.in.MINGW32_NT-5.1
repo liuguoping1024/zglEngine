@@ -1,0 +1,15 @@
+
+CPP     = g++
+CC      = gcc
+LIB     = ar cr
+
+INCLUDES = 
+DEFINES  =  
+CXXFLAGS = -Wall -O3
+LDFLAGS  = -Wl,-subsystem,windows
+LIBS	 = -L/mingw/lib -lopengl32 -lglu32 -lglaux -lgdi32 -lpng -lz -L../../lib -lzglEngine
+
+
+.PHONY : clean
+
+

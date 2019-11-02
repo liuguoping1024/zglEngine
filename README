@@ -1,0 +1,22 @@
+zglEngine - README
+===============================================================================
+
+REQUIREMENTS
+-------------------------------------------------------------------------------
+
+zglEngine currently requires:
+ - OpenGL >= 1.5 (OpenGL 1.x)
+ - or OpenGL >= 2.0+ (OpenGL es 2.0)
+
+On X11, the development package requires:
+ - libx11-dev
+ - mesa-common-dev
+
+On X11/Win32, the development library is requires:
+ - libpng 1.2.x (http://www.libpng.org/)
+ - zlib (http://www.zlib.net/)
+
+libpng & zlib is no neccessary for Android.
+
+
+

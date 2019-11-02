@@ -1,0 +1,14 @@
+
+CPP     = g++
+CC      = gcc
+LIB     = ar cr
+
+INCLUDES = 
+DEFINES  =  
+LDFLAGS  = 
+CXXFLAGS = -Wall -O3
+LIBS	 = -lGLU -lGL -lpng -lz -L../../lib -lzglEngine
+
+.PHONY : clean
+
+
